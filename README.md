@@ -2,21 +2,22 @@
 
 Django poll app is a full featured polling app. You have to register in this app to show the polls and to vote. If you already voted you can not vote again. Only the owner of a poll can add poll , edit poll, update poll, delete poll , add choice, update choice, delete choice and end a poll. If a poll is ended it can not be voted. Ended poll only shows user the final result of the poll. There is a search option for polls. Also user can filter polls by name, publish date, and by number of voted. Pagination will work even after applying filter.
 
-<h1>Getting Started</h1>
-<p>These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.</p>
+<h1>시작하기</h1>
 
-<h2>Prerequisites</h2>
-<code>python== 3.5 or up and django==2.0 or up</code>
-<code>pip3</code>
+<h2>사전 준비</h2>
+<code>python== 3.5 or up and django==2.0 or up and pip3</code>
 
-<h2>Installing</h2>
-<pre>open terminal and type</pre>
+<h2>어플리케이션 설치</h2>
+<pre>터미널에서 다음을 실행</pre>
 <code>git clone https://github.com/go4real/Django-Poll-App</code><br><br>
 
-<h4>or simply download using the url below</h4>
+<h4>다음 url에서 다운로드해서 사용도 가능</h4>
 <code>https://github.com/go4real/Django-Poll-App</code><br>
 
-<h2>To migrate the database open terminal in project directory and type</h2>
+<h2>실행에 필요한 관련 패키지 설치. 프로젝트 디렉토리에서 다음을 실행.</h2>
+<code>pip3 install -r requirements.txt</code><br>
+
+<h2>데이터베이스 구성을 위해 프로젝트 디렉토리에서 다음을 실행</h2>
 <code>python manage.py makemigrations</code><br>
 <code>python manage.py migrate</code>
 
