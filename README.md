@@ -14,18 +14,17 @@ Django poll app is a full featured polling app. You have to register in this app
 <h4>다음 url에서 다운로드해서 사용도 가능</h4>
 <code>https://github.com/go4real/Django-Poll-App</code><br>
 
-<h2>실행에 필요한 관련 패키지 설치. 프로젝트 디렉토리에서 다음을 실행.</h2>
+<h2>어플리케이션 실행에 필요한 관련 패키지 설치를 위해 프로젝트 디렉토리에서 다음을 실행</h2>
 <code>pip3 install -r requirements.txt</code><br>
 
 <h2>데이터베이스 구성을 위해 프로젝트 디렉토리에서 다음을 실행</h2>
-<code>python manage.py makemigrations</code><br>
-<code>python manage.py migrate</code>
+<code>python3 manage.py migrate</code>
 
-<h2>To use admin panel you need to create superuser using this command </h2>
-<code>python manage.py createsuperuser</code>
+<h2>어드민 메뉴 사용에 필요한 관리자 계정 생성</h2>
+<code>python3 manage.py createsuperuser</code>
 
 <h2>To Create some dummy text data for your app follow the step below:</h2>
-<code>pip install faker</code>
+<code>pip3 install faker</code>
 <code>python manage.py shell</code>
 <code>import seeder</code>
 <code>seeder.seed_all(30)</code>
