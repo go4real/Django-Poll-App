@@ -25,13 +25,13 @@ Django poll app is a full featured polling app. You have to register in this app
 
 <h2>To Create some dummy text data for your app follow the step below:</h2>
 <code>pip3 install faker</code><br>
-<code>python manage.py shell</code><br>
+<code>python3 manage.py shell</code><br>
 <code>import seeder</code><br>
 <code>seeder.seed_all(30)</code><br>
 <p>Here 30 is a number of entry. You can use it as your own</p>
 
 <h2> To run the program in local server use the following command </h2>
-<code>python manage.py runserver</code>
+<code>python3 manage.py runserver</code>
 
 <p>Then go to http://127.0.0.1:8000 in your browser</p>
 
